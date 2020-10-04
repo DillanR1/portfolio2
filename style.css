@@ -259,11 +259,52 @@ h6 {font-size: 16px;}
     gap: 100px;
 }
 
+
+
+
+
 #skills{
     display: flex;
     flex: right;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
+}
+
+.post-wrapper{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.post{
+    border:2px solid var(--borcercolor);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+}
+
+.thumbnail{
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.post-preview{
+    background-color: #fff;
+    padding:15px;
+
+}
+
+.post-title{
+    color:black;
+    margin:0;
+}
+
+.post-intro{
+    color: #4b5156;
 }
 
 @media screen and (max-width:1200px){
