@@ -12,6 +12,8 @@
     --previewBg:rgb(251, 249, 243, 0.8);
     --previewShadow:#eaeaea;
 
+
+
     --buttonColor:black;
 }
 
@@ -181,16 +183,16 @@ h6 {font-size: 16px;}
     background-color: #fff;
 }
 
-#blue-mode{
-    background-color: #192734;
+#dark-mode{
+    background-color: #262626;
 }
 
-#green-mode{
-    background-color: #78866b;
+#orange-mode{
+    background-color: #d87a00;
 }
 
 #purple-mode{
-    background-color: #7E4C74;
+    background-color: #530649d2;
 }
 
 #settings-note{
@@ -218,7 +220,7 @@ h6 {font-size: 16px;}
 
 #preview{
     width: 300px;
-    border: 2px solid #17a2b8;
+    border: 2px solid border;
     background-color: var(--previewBg);
     padding: 15px;
     position: relative;
@@ -325,8 +327,10 @@ h6 {font-size: 16px;}
     margin-bottom: 50px;
 }
 
-#contact-form label{
+#contact-form, label{
     line-height: 2.7em;
+    color: var(--mainText);
+    font-size: 24px;
 }
 
 #contact-form textarea{
@@ -350,9 +354,10 @@ h6 {font-size: 16px;}
     width:100%;
     padding-top: 10px;
     padding-bottom:10px;
-    color: #fff;
+    color: var(--mainText);
     background-color: var(--buttonColor);
     border:none;
+    font-size: 26px;
 }
 
 @media screen and (max-width:1200px){

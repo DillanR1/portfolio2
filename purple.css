@@ -1,0 +1,27 @@
+:root{
+    --mainColor:#530649d2;
+    --secondaryColor:rgb(78, 76, 76);
+    
+    --borderColor:#0daf30b0;
+
+    --mainText:#1ddd33;
+    --secondaryText:#ffffff;
+    --themeDotBorder:#ffffffb0;
+
+    --previewBg:rgba(106, 124, 122, 0.8);
+    --previewShadow:rgba(106, 124, 122, 0.3);
+    --previewBorder:#0daf30b0;
+    
+    --buttonColor:rgb(78, 76, 76);
+}
+
+.input-field{
+    background-color: #eaeaea;
+    color: black;
+    font-size: 20px;
+}
+
+#preview{
+    border:2px solid;
+    border-color: var(--previewBorder);
+}

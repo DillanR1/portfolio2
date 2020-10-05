@@ -1,0 +1,34 @@
+:root{
+    --mainColor: #535151;
+    --secondaryColor:#262626;
+    
+    --borderColor:#e6e6e6;
+
+    --mainText:#f1f1f1;
+    --secondaryText:#f1f1f1;
+    --themeDotBorder:#ffffffb0;
+
+    --previewBg: #535151;
+    --previewShadow:#272626;
+    --previewBorder:#ffffffb0;
+    
+    --buttonColor:#ad2c0b;
+}
+
+.input-field{
+    background-color: #eaeaea;
+    color: black;
+    font-size: 20px;
+}
+
+#preview{
+    border:2px solid;
+    border-color: var(--previewBorder);
+}
+
+a{
+    text-decoration: none;
+    color:#e93600;
+    font-size: large;
+    font-weight: bold;
+}
