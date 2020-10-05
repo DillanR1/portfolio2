@@ -17,12 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-
-    <link id="theme-style" rel="stylesheet" type="text/css" href="dark.css">
-    <link id="theme-style" rel="stylesheet" type="text/css" href="purple.css">
-    <link id="theme-style" rel="stylesheet" type="text/css" href="orange.css">
+    <!--CSS switches themes with script.js-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
 
@@ -50,10 +47,10 @@
                     <h5 style="text-align: center; line-height:0;">Personalize Theme</h5>
 
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
+                        <div data-mode="orange" id="orange-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
                     <p id="settings-note">*Theme settings will be saved for<br>your next visit</p>
                 </div>
@@ -95,7 +92,7 @@
                 <h4>Experience</h4>
     
                 <p>Software Developer focusing on MEN and MERN stacks with emphasis on front-end development:
-                    <a target="_blank" href="Resume 2.0.pdf">Download Resume</a></p>
+                    <a class="resume" target="_blank" href="Resume 2.0.pdf">Download Resume</a></p>
     
                 <div id="skills">
                     <ul>
@@ -150,8 +147,8 @@
                 <div class="post">
                     <a href="https://agile-retreat-07491.herokuapp.com/"><img class="thumbnail" src="images/wayfarer.png"/></a>
                     <div class="post-preview">
-                        <h6 class="post-title">Post Title</h6>
-                        <p class="post-intro">roject Wayfarer simulated the 
+                        <h6 class="post-title">Project Wayfarer</h6>
+                        <p class="post-intro">Project Wayfarer simulated the 
                             relationship between developer team and client. <br>
                         <br>This travel themed site was built with Python, PostgreSQL and Django.</p>
                         <a class="link" href="https://github.com/DillanR1/wayfarer">Read More On Github</a>
@@ -164,7 +161,7 @@
                 <div class="post">
                     <a href="https://secret-thicket-11557.herokuapp.com/"><img class="thumbnail" src="images/CHISME.png"/></a>
                     <div class="post-preview">
-                        <h6 class="post-title">Post Title</h6>
+                        <h6 class="post-title">Chisme</h6>
                         <p class="post-intro">CHISME is Spanish for Drama,
                          and thus the gooey gossip collaboration was born of the minds from 
                          General Assembly's Software Engineers and UX/UI Desiginers. </p>
@@ -197,5 +194,6 @@
         </div>
     </section>
 
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
