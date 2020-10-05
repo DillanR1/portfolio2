@@ -9,11 +9,13 @@
     --themeDotBorder:#ffffffb0;
 
     --previewBg:rgba(106, 124, 122, 0.8);
-    --previewShadow:rgba(106, 124, 122, 0.3);
+    --previewShadow:rgb(78, 76, 76);
     --previewBorder:#0daf30b0;
     
     --buttonColor:rgb(78, 76, 76);
 }
+
+
 
 .input-field{
     background-color: #eaeaea;
@@ -24,4 +26,19 @@
 #preview{
     border:2px solid;
     border-color: var(--previewBorder);
+}
+
+#settings-note{
+    font-size: 18px;
+    font-weight: italic;
+    text-align: center;
+}
+
+.corner{
+    width:7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 2px solid #1ddd33;
+    background-color: #1ddd33;
+    position: absolute;
 }

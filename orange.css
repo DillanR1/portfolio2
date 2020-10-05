@@ -13,30 +13,26 @@
     --previewBorder:#ffffffb0;
     
     --buttonColor:#FD6A02;
-    font-size: 24px;
+
 }
+
+
 
 .input-field{
     background-color: #eaeaea;
     color: black;
-    font-size: 24px;
 }
 
-textarea .input-field{
-    font-size: 24px;
+.corner{
+    width:7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 2px solid #262626;
+    background-color:#FD6A02;
+    position: absolute;
 }
 
-#preview{
-    border:2px solid;
-    border-color: var(--previewBorder);
-}
 
-a, p{
-    text-decoration: none;
-    color:#f1f1f1;
-    font-size: 20px;
-  
-}
 
 .resume{
     font-style: italic;
@@ -47,22 +43,29 @@ a, p{
     
 }
 
-
-.post-title{
-    font-size: 28px;
-    font-weight: bold;
+#preview{
+    border:2px solid;
+        border-color: var(--previewBorder);
 }
 
 #skills{
-    background:#e6e6e6;
+    background:#535151;
+}
+
+#skills, li{
+    color: #f1f1f1;
 }
 
 #settings-note{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: italic;
+    text-align: center;
 }
 
-#contact-form textarea{
-    min-height: 100px;
-    font-size: 24px;
+a, p{
+    text-decoration: none;
+    color:#f1f1f1;
+  
 }
+
 

@@ -15,3 +15,19 @@
     --buttonColor:#17a2b8;
 }
 
+
+
+#settings-note{
+    font-size: 18px;
+    font-weight: italic;
+    text-align: center;
+}
+
+.corner{
+    width:7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 2px solid #17a2b8;
+    background-color:#17a2b8;
+    position: absolute;
+}
