@@ -13,7 +13,7 @@ const config = {
 }
 
 firebase.initializeApp(config);
-firebase.analytics();
+
 
 const database = firebase.database();
 const messagesRef = firebase.database().ref('messages');
@@ -35,6 +35,16 @@ function submitForm(e){
  // Save Message
  saveMessage(name, subject, email, message);
 
+// Show Alert
+document.querySelector('.alert').style.display = 'block';
+
+// Hide alert after 3 seconds
+setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+}, 4000);
+
+// Clear Form
+document.getElementById('contactForm').reset();
 }
 
 // Function to get form values

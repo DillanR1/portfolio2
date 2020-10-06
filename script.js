@@ -1,6 +1,6 @@
 
 /* THEME SELECTOR */
-console.log("it's working");
+
 
 let theme = localStorage.getItem('theme')
 

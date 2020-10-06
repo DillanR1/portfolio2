@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-    <!-- Firebase Script MUST go here-->
+       
     
-    
-    <!--Font Awesome Script-->
-    <script src="https://use.fontawesome.com/0efc93c8d0.js"></script>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Dillan Roby</title>
-
-    <!--Font Awesome Stylesheets for V4 and V5 Update-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/v4-shims.css">
     
     <!--Google Fonts-->    
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     
+    <!--Font Awesome Script-->
+    <script src="https://use.fontawesome.com/655adb097b.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
     <!--CSS switches themes with script.js-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link id="theme-style" rel="stylesheet" type="text/css" href="">
@@ -79,50 +75,49 @@
     <section class="s2">
         <div class="main-container">
     
-            <div class="about-wrapper">
-                <div class="about-me">
-                    <h4>More about me</h4>
-    
-                    <p>Completed General Assembly's 12 week, 480+ hour
-                        Software Engineering Immersive where I learned how to develop responsive,
-                        full-stack web applications and websites utilizing modern technology stacks.</p>
-    
-                    <p> I love taking on new projects and challenges to sharpen my skills.</p>
-                
-    
-                <hr>
-    
-                <h4>Experience</h4>
-    
-                <p>Software Developer focusing on MEN and MERN stacks with emphasis on front-end development:
-                    <a class="resume" target="_blank" href="Resume 2.0.pdf">Download Resume</a></p>
-    
-                <div id="skills">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>MongoDB</li>
-                        <li>Express</li>
-                    </ul>
-    
-                    <ul>
-                        <li>Node.js</li>
-                        <li>React</li>
-                        <li>BootStrap</li>
-                        <li>Mongoose</li>
-                        <li>Heroku</li>
-                    </ul>
-    
+                <div class="about-wrapper">
+                    <div class="about-me">
+                        <h4>More about me</h4>
+        
+                        <p>Completed General Assembly's 12 week, 480+ hour
+                            Software Engineering Immersive where I learned how to develop responsive,
+                            full-stack web applications and websites utilizing modern technology stacks.</p>
+        
+                        <p> I love taking on new projects and challenges to sharpen my skills.</p>
+                    
+        
+                    <hr>
+        
+                    <h4>Experience</h4>
+        
+                    <p>Software Developer focusing on MEN and MERN stacks with emphasis on front-end development:
+                        <a class="resume" target="_blank" href="Resume 2.0.pdf">Download Resume</a></p>
+        
+                    <div id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>MongoDB</li>
+                            <li>Express</li>
+                        </ul>
+        
+                        <ul>
+                            <li>Node.js</li>
+                            <li>React</li>
+                            <li>BootStrap</li>
+                            <li>Mongoose</li>
+                            <li>Heroku</li>
+                        </ul>
+        
+                    </div>
+                    
                 </div>
                 
-            </div>
-            
-            
-            <ul class="social-links">
-                    <li><i class="icon" id="fab fa-linkedin"></i></li>
-                    <li><i class="icon" id="fab fa-github-square"></i></li>
-            </ul>
+             <div>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github-square"></i>
+             </div>
             
         </div>
     </section>
@@ -179,15 +174,16 @@
         <div class="main-container">
             <h3 style="text-align: center;">Get In Touch</h3>
             
+            <div class="alert">Your message has been sent</div>
             <form id="contact-form">
                 <lable>Name</lable>
-                <input class="input-field" id="name" type="text" name="name">
+                <input class="input-field" id="name" type="text" name="name" required>
 
                 <lable>Subject</lable>
                 <input class="input-field" id="subject" type="text" name="subject">
 
                 <lable>Email</lable>
-                <input class="input-field" id="email" type="text" name="email">
+                <input class="input-field" id="email" type="email" name="email" required>
 
                 <lable>Message</lable>
                 <textarea class="input-field" id="message" name="message"></textarea>
