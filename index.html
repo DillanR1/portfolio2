@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
    
+    <!-- Firebase Script MUST go here-->
+    
+    
     <!--Font Awesome Script-->
     <script src="https://use.fontawesome.com/0efc93c8d0.js"></script>
     
@@ -178,22 +181,27 @@
             
             <form id="contact-form">
                 <lable>Name</lable>
-                <input class="input-field" type="text" name="name">
+                <input class="input-field" id="name" type="text" name="name">
 
                 <lable>Subject</lable>
-                <input class="input-field" type="text" name="subject">
+                <input class="input-field" id="subject" type="text" name="subject">
 
                 <lable>Email</lable>
-                <input class="input-field" type="text" name="email">
+                <input class="input-field" id="email" type="text" name="email">
 
                 <lable>Message</lable>
-                <textarea class="input-field" name="message"></textarea>
+                <textarea class="input-field" id="message" name="message"></textarea>
 
                 <input id="submit-btn" type="submit" value="Send">
             </form>
         </div>
     </section>
 
+    <!-- THIS SCRIPT ABSOLUTELY MUST STAY HERE-->
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-database.js"></script>
+    <script type="text/javascript" src="firebaseConfig.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

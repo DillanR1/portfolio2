@@ -1,3 +1,5 @@
+
+/* THEME SELECTOR */
 console.log("it's working");
 
 let theme = localStorage.getItem('theme')
@@ -37,3 +39,4 @@ function setTheme(mode){
 
     localStorage.setItem('theme', mode)
 }
+
