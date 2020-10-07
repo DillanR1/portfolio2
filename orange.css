@@ -68,4 +68,25 @@ a, p{
   
 }
 
+.fa-linkedin{
+    align-self: center;
+    font-size: 40px;
+    color:#262626;
+    padding: 5px;
+}
 
+.fa-github-square{
+    font-size: 40px;
+    color:#262626;
+    padding:5px;
+}
+
+.fa-linkedin:hover{
+ transform: scale(1.1);
+ color:#535151;
+}
+
+.fa-github-square:hover{
+    transform: scale(1.1);
+    color:#535151;
+   }

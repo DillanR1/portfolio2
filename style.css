@@ -17,9 +17,10 @@
     --buttonColor:#17a2b8;
 }
 
-.intro p{
+p{
     font-size: 20px;
 }
+
 
 
 
@@ -49,11 +50,11 @@ ul{
 }
 
 h1 {font-size: 55px;}
-h2 {font-size: 35px;}
-h3 {font-size: 28px;}
-h4 {font-size: 24px;}
-h5 {font-size: 20px;}
-h6 {font-size: 16px;}
+h2 {font-size: 40px;}
+h3 {font-size: 35px;}
+h4 {font-size: 31px;}
+h5 {font-size: 27px;}
+h6 {font-size: 24px;}
 
 .s1{
     background-color: var(--mainColor);
@@ -275,12 +276,13 @@ h6 {font-size: 16px;}
     display: flex;
     flex: right;
     justify-content: space-evenly;
-    background-color: var(--previewShadow);
+    background-color: var(--mainColor);
+    font-size: 16px;
 }
 
 .post-wrapper{
     display:grid;
-    grid-template-columns: repeat(auto-fit, 320px);
+    grid-template-columns: repeat(auto-fit, 420px);
     gap: 20px;
     justify-content: center;
     padding-bottom: 50px;
@@ -317,7 +319,8 @@ h6 {font-size: 16px;}
 }
 
 .post-intro{
-    color: #4b5156;
+    color: #262626;
+    font-size: 18px;
 }
 
 .resume{
