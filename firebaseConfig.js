@@ -44,7 +44,7 @@ setTimeout(function(){
 }, 4000);
 
 // Clear Form
-document.getElementById('contactForm').reset();
+document.getElementById('contact-form').reset();
 }
 
 // Function to get form values
