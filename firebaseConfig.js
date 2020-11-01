@@ -1,5 +1,5 @@
 // Initialize Firebase
-
+// Test commit
 
 const config = {
     apiKey: "AIzaSyBXRU3fwc0VtT8nI5FGLJgGExvkN00XmXc",
